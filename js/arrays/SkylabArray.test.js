@@ -1,3 +1,4 @@
+
 import SkylabArray from "../index";
 
 describe("Given a class", () => {
@@ -13,6 +14,7 @@ describe("Given a class", () => {
       };
       object = SkylabArray(number1, number2, number3);
       const object = expect(object).toBe(expectedObject);
+
     });
   });
 });
